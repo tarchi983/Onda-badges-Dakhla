@@ -1,0 +1,26 @@
+### Java / Maven build output
+**/target/
+*.class
+*.jar
+*.war
+
+### Local application configuration and runtime data
+desktop-app/config.properties
+desktop-app/seen_badges.json
+desktop-app/sent_emails_history.json
+.onda_badges.lock
+
+### Private Excel workbooks and generated data
+*.xlsx
+*.xls
+
+### Bundled local Java runtime
+desktop-app/jdk-*/
+
+### IDE and operating system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
